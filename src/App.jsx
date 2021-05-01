@@ -11,7 +11,7 @@ function minus(a,b) {
 function getDateNow() {
   return new Date().toISOString();
 }
-function App() {
+const App = () => {
   return (
     <div className="App">
       <p>
@@ -23,9 +23,9 @@ function App() {
       <h1>
         {minus(11,2)}
       </h1>
-      <h1>
+      <small>
         {getDateNow()}
-      </h1>
+      </small>
       <TextPage/>
     </div>
   );

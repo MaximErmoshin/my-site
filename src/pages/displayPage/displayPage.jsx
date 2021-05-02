@@ -19,7 +19,7 @@ const DisplayPage = () => {
             </section>
             <section>
                 <div className="d-flex w-100">
-                    <div className="col-6">
+                    <div className="col-6 d-flex flex-column">
                         <p>
                             Еду. Тихо. Слышны звоны
                             Под копытом на снегу.
@@ -41,13 +41,19 @@ const DisplayPage = () => {
                             Бесконечная дорога
                             Убегает лентой вдаль.
                         </p>
+                        <img className="mt-2" src="https://ser-esenin.ru/uploads/posts/2017-04/1491736190_populyarnye-stihi-esenina.jpg" alt="альтернативный текст" />
                     </div>
                     <div className="col-2 background-orange">
                     </div>
-                    <div className="col-4 background-purple">
+                    <div className="col-4 d-flex flex-rol background-purple">
                         <p className="color-white">
-                            Стихотворение завершается картиной раздолья со скачущим конем. Традиционный элемент русского пейзажа – «бесконечная дорога» с непрекращающимся снегопадом. Этот образ символизирует широту русской души, ее необъятность и открытость.
-                    </p>
+                            Стихотворение завершается
+                        </p>
+                        <img className="ml-auto"
+                            src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/05/untitled-1-1526865724.jpg"
+                            alt="альтернативный текст"
+                            width="150"
+                            height="150" />
                     </div>
                 </div>
             </section>

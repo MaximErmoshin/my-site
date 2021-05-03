@@ -1,4 +1,5 @@
 import './displayPage.css';
+import undrawMobileLoginIkmvImage from '../../img/undraw_mobile_login_ikmv.png';
 const DisplayPage = () => {
     return (<>
         <main>
@@ -50,7 +51,7 @@ const DisplayPage = () => {
                             Стихотворение завершается
                         </p>
                         <img className="ml-auto"
-                            src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/05/untitled-1-1526865724.jpg"
+                            src={undrawMobileLoginIkmvImage}
                             alt="альтернативный текст"
                             width="150"
                             height="150" />

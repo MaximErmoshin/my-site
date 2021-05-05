@@ -1,6 +1,7 @@
-import './displayPage.css';
 import undrawMobileLoginIkmvImage from '../../img/undraw_mobile_login_ikmv.png';
-const DisplayPage = () => {
+import groupImage from '../../img/Group.png';
+import pathImage from '../../img/Path.png';
+const HomePage = () => {
     return (<>
         <main>
             {/* Скрытие блоков при разном размере окна */}
@@ -21,7 +22,7 @@ const DisplayPage = () => {
             <section>
                 <div className="d-flex w-100">
                     <div className="col-6 d-flex flex-column">
-                        {<p>
+                        {/* {<p>
                             Еду. Тихо. Слышны звоны
                             Под копытом на снегу.
                             Только серые вороны
@@ -41,18 +42,22 @@ const DisplayPage = () => {
                             Валит снег и стелет шаль.
                             Бесконечная дорога
                             Убегает лентой вдаль.
-                        </p> }
-                        <img className="mt-2" src="https://ser-esenin.ru/uploads/posts/2017-04/1491736190_populyarnye-stihi-esenina.jpg" alt="альтернативный текст" />
+                        </p>}
+                        <img className="mt-2" src="https://ser-esenin.ru/uploads/posts/2017-04/1491736190_populyarnye-stihi-esenina.jpg" alt="альтернативный текст" /> */}
                     </div>
-                    <div className="col-4 d-flex flex-rol background-purple">
-                        <p className="color-white">
-                            Стихотворение завершается
-                        </p>
+                    <div className="col-4 d-flex">
+                        {/* <p className="color-white">
+                        </p> */}
+                        <img className="ml-1"
+                            src={pathImage}
+                            width="450"
+                            height="450" />
                         <img className="ml-auto"
-                            src={undrawMobileLoginIkmvImage}
+                            src={groupImage}
                             alt="альтернативный текст"
-                            width="350"
-                            height="350" />
+                            width="450"
+                            height="450" />
+                       
                     </div>
                 </div>
             </section>
@@ -61,4 +66,4 @@ const DisplayPage = () => {
 
 }
 
-export default DisplayPage;
+export default HomePage;

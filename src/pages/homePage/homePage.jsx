@@ -1,9 +1,10 @@
 import undrawMobileLoginIkmvImage from '../../img/undraw_mobile_login_ikmv.png';
 import groupImage from '../../img/Group.png';
 import pathImage from '../../img/Path.png';
+import './homePage.css';
 const HomePage = () => {
     return (<>
-        <main>
+        <main className="background-orange">
             {/* Скрытие блоков при разном размере окна */}
             <section>
                 <section className="d-lg-none">
@@ -45,20 +46,23 @@ const HomePage = () => {
                         </p>}
                         <img className="mt-2" src="https://ser-esenin.ru/uploads/posts/2017-04/1491736190_populyarnye-stihi-esenina.jpg" alt="альтернативный текст" /> */}
                     </div>
-                    <div className="col-4 d-flex">
+                    {/* <div className="col-6 d-block">
+                    <img className="ml-1"
+                            src={groupImage}
+                            alt="альтернативный текст"
+                            width="350"
+                            height="350" />
+                    </div> */}
+                    <p className="col-6 d-flex">
                         {/* <p className="color-white">
                         </p> */}
                         <img className="ml-1"
                             src={pathImage}
                             width="450"
                             height="450" />
-                        <img className="ml-auto"
-                            src={groupImage}
-                            alt="альтернативный текст"
-                            width="450"
-                            height="450" />
                        
-                    </div>
+                    </p>
+                    
                 </div>
             </section>
         </main>
